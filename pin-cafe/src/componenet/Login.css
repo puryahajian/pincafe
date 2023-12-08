@@ -1,0 +1,170 @@
+@font-face {
+    font-family: sans;
+    src: url(../font/IRANSans.ttf);
+}
+
+/* Login */
+.Login {
+    border: 1px solid black;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.inset-login {
+    /* border: 1px solid black; */
+    width: 400px;
+    height: max-content;
+    margin: 10px;
+}
+
+.img-logo {
+    width: 33%;
+    height: 33%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: none !important;
+}
+
+.inputs {
+    /* border: 1px solid black; */
+    display: grid;
+    justify-content: center;
+    grid-gap: 5px;
+    padding: 10px;
+    margin-top: 24px !important;
+}
+
+#standard-search {
+    width: 250px;
+    text-align: right !important;
+}
+
+.forget {
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 278px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-check-label {
+    font-family: sans !important;
+    margin-top: 5px !important;
+}
+
+.form-check-input {
+    background-color: rgb(255, 162, 0) !important;
+    outline: none;
+    font-size: 20px !important;
+    border: none !important;
+}
+
+
+
+/* Login */
+
+/*  */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*  */
+
+.inputs {
+    /* display: block; */
+    /*border: 1px solid black;*/
+    display: block;
+    justify-content: center;
+    margin: 0 35px;
+}
+
+.input-phone {
+    display: grid;
+    grid-gap: 18px;
+}
+
+.input-code>input::placeholder {
+    font-size: 14px;
+}
+.input-code {
+    display: grid;
+    width: 100%;
+    grid-gap: 8px;
+    /*height: 60px;*/
+}
+
+.input-code>input {
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 8px 16px;
+}
+
+.div-phone {
+    display: grid;
+    grid-gap: 8px;
+}
+
+.div-phone>input {
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 8px 16px;
+    direction: rtl;
+    outline: none;
+}
+.div-phone>input::placeholder {
+    font-size: 14px;
+}
+
+.div-send-code {
+    display: grid;
+    align-content: end;
+}
+
+.div-send-code>button , .btn-login {
+    font-family: sans;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    width: 100%;
+    color: #f2f2f2;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+}
+.divs-code{
+    display: grid;
+    grid-gap: 18px;
+}
+
+.div-phone>label {
+    font-family: sans;
+    font-weight: 500;
+    font-size: 16px;
+    height: max-content;
+}
+
+.input-code>label {
+    font-family: sans;
+    font-weight: 500;
+}
+
+.btn-loginn {
+    height: 35px;
+    font-family: sans;
+    border: none;
+    border-radius: 4px;
+    margin-top: 16px;
+}

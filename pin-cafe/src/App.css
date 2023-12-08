@@ -1,0 +1,151 @@
+@font-face {
+  font-family: sans;
+  src: url(./font/IRANSans.ttf);
+}
+body{
+  direction: rtl;
+}
+
+.c-main{
+  /* border: 1px solid black !important; */
+  display: flex;
+  grid-gap: 20px;
+  padding: 20px;
+  background-color: white;
+  max-width: 1440px;
+  height: max-content;
+  margin: 0 20px 0 0 ;
+  position: relative;
+}
+.c-right, .c-left{
+  border-radius: 14px;
+}
+.c-right{
+  /* border: 1px solid black; */
+  width: 260px;
+  height: 670px;
+  display: grid;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.c-right h2{
+  font-family: sans;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #e3ab74;
+}
+.c-left{
+  /* border: 1px solid black; */
+  width: 80%;
+  padding: 0 24px 0;
+  background-color: white;
+}
+.ul-menu{
+  display: grid;
+  grid-gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+#li-menu{
+  display: flex;
+  width: 250px;
+  list-style: none;
+  /* background-color: #ccc; */
+  border-radius: 8px;
+  transition: 0.2s;
+  background-color: #3c3c3c1e;
+}
+#li-menu:hover{
+  /* border: 0.5px solid rgb(255, 162, 0); */
+}
+#li-menu.active{
+  background-color: #005d60;
+}
+#li-menu.active p{
+  color: #ffffff;
+}
+.icon-menu{
+  color: #8b8b8b;
+}
+
+/* .uk-link, a{
+  color: #2b2b2b !important;
+} */
+.icon-menu{
+  margin: 4px 8px;
+  font-size: 10px !important;
+  padding: 8px;
+  width: 24px;
+  height: 24px;
+  /* color: black; */
+  border-radius: 8px;
+}
+.link{
+  text-decoration: none !important;
+  display: flex;
+  width: 100%;
+}
+
+#li-menu p{
+  font-family: sans;
+  font-size: 16px;
+  color: #676767;
+  margin: 12px 0 0 0;
+}
+.logo-menu{
+  width: 35%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+.btn{
+  display: none !important;
+}
+
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1020px) {
+  .c-right{
+    display: none;
+  }
+  .c-left{
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+  .btn{
+    display: block !important;
+  }
+  .logo-page{
+    display: none !important;
+  }
+  .c-main{
+    padding: 0px;
+    margin: 0px;
+  }
+
+}
+@media screen and (max-width: 780px) {
+  .list-food{
+    padding: 0;
+  }
+  
+}
+@media screen and (max-width: 650px) {
+  .c-main{
+    padding: 0px;
+    margin: 0px;
+  }
+  .list-food{
+    padding: 0;
+  }
+  
+}
+
+
